@@ -1,0 +1,41 @@
+entro.py
+
+***
+
+This script is intended to provide a way for security researchers to generate a large number of passwords based off of a person's personal info. This script should never be used for illegal purposes such as unauthorized password cracking. 
+
+***
+
+How it works:
+Takes a text file of words assosciated with a person (default is ./words.txt) and a text file of numbers assosciated with a person (default is ./numbers.txt) and generates a text wordlist (default is ./wordlist.txt).
+
+Usage: entro.py [options]
+
+Options:
+  -h, --help     show this help message and exit
+  -w [FILE]      specify words text file [default is ./words.txt]
+  -n [FILE]      specify numbers text file [default is ./numbers.txt]
+  -o [FILE]      specify output text file [default is ./wordlist.txt]
+  -m MIN_LENGTH  specify minimum password length [default is 0]
+  -e             eliminates exclamation points from passwords
+
+***
+
+Password ideas:
+*ALL LOWER CASE*
+
+names (including parts and initials)
+pets
+location (country, state, city)
+business
+usernames
+sports and teams
+characters
+cars
+
+0-100
+birthdays
+anniversaries
+age
+graduation
+address
